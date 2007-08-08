@@ -1,0 +1,12 @@
+Application "micro OpenView"
+{
+    Description {
+	"HP OpenView",
+	"Application registration file for very few menu items",
+    }
+    Version "NNM Release B.06.10  Oct 28 1999";
+    ToolbarButton <100> "Top "     Context "AllContexts" f.goto_root;
+    ToolbarButton <100> "Up "   Context "AllContexts" f.goto_parent;
+    ToolbarButton <100> "Zoom"       Context "AllContexts" f.show_panner;
+    ToolbarButton <5> "Quit"  Context "AllContexts" f.exit;
+}
